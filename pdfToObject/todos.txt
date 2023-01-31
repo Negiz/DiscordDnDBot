@@ -1,0 +1,3 @@
+@todo 
+Move pdfToObject to own libary, own project?
+Move only when examples ready.

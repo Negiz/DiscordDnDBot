@@ -1,0 +1,17 @@
+
+{
+    "compilerOptions": {
+        "incremental": true,
+        //"module": "CommonJS",
+        "target":"ESNext",
+        "lib": ["esnext", "dom"],
+        "outDir": "./dist",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        //"noEmit": true,
+        //"isolatedModules": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": false
+    },
+    "include": ["./src", "pdfToObject"]
+}

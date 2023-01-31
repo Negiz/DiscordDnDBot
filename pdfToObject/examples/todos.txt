@@ -1,0 +1,5 @@
+@todo examples
+create example pdf for all cases
+remove CharacterSheet, use more simple pdf with fields.
+create more simple pdf for examples?
+create simple object with different types of fields.

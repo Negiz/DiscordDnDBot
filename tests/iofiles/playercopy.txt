@@ -1,0 +1,327 @@
+{
+ "PlayerName": "Negiz",
+ "CharacterName": "Magic Man",
+ "Class": "Wizard",
+ "Level": 2,
+ "Race": "Thiefling",
+ "Alignment": "LE",
+ "XP": 500,
+ "ProficiencyBonus": 2,
+ "AC": 13,
+ "Initiative": 1,
+ "Speed": 30,
+ "HPMax": 12,
+ "HPCurrent": 11,
+ "HPTemporary": 0,
+ "Hitdie": 8,
+ "HitdieTotal": 0,
+ "PassivePerception": 12,
+ "FeaturesAndTraits": [
+  "Darkvision: 60ft",
+  "Fey Ancestry: Advantage on saving throws against being charmed, and magic cannot put you into sleep.",
+  "Resistances: poison,viina, teline, johannes",
+  "Weaknesses: fire",
+  "Stonecunning: History check on ever stone stuff advantage lul."
+ ],
+ "PersonalityTraits": "Likes magic.\rNecromancy and dead things of interest.",
+ "Ideals": "First immortality, then the bitches.",
+ "Bonds": "None",
+ "Flaws": "Haven't showered in the last 20years.",
+ "Stats": {
+  "PrimaryStats": {
+   "Strength": {
+    "Value": 12,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Dexterity": {
+    "Value": 10,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Constitution": {
+    "Value": 13,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Intelligence": {
+    "Value": 6,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Wisdom": {
+    "Value": 18,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Charisma": {
+    "Value": 11,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   }
+  },
+  "ModifierStats": {
+   "StrengthModifier": {
+    "Value": 1,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "DexterityModifier": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "ConstitutionModifier": {
+    "Value": 1,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "IntelligenceModifier": {
+    "Value": -2,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "WisdomModifier": {
+    "Value": 4,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "CharismaModifier": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   }
+  },
+  "SavingThrowStats": {
+   "SavingThrowStrength": {
+    "Value": 1,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "SavingThrowDexterity": {
+    "Value": 0,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "SavingThrowConstitution": {
+    "Value": 1,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "SavingThrowIntelligence": {
+    "Value": -2,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "SavingThrowWisdom": {
+    "Value": 4,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "SavingThrowCharisma": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   }
+  },
+  "SkillStats": {
+   "Acrobatics": {
+    "Value": 0,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "AnimalHandling": {
+    "Value": 4,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Arcana": {
+    "Value": -2,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Athletics": {
+    "Value": 1,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Deception": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "History": {
+    "Value": -2,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Insight": {
+    "Value": 4,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Intimidation": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Investigation": {
+    "Value": -2,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Medicine": {
+    "Value": 4,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Nature": {
+    "Value": -2,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Perception": {
+    "Value": 4,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Performance": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Persuasion": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Religion": {
+    "Value": -2,
+    "IsProficient": true,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "SleightOfHand": {
+    "Value": 0,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   },
+   "Survival": {
+    "Value": 4,
+    "IsProficient": false,
+    "BonusProficiency": 0,
+    "ModifierValue": 0
+   }
+  }
+ },
+ "Equipment": {
+  "Coinbag": {
+   "Copper": 1,
+   "Silver": 2,
+   "Electrum": 0,
+   "Gold": 4,
+   "Platinum": 5
+  },
+  "Ammo": [
+   {
+    "Name": "bolts",
+    "Count": 20
+   }
+  ],
+  "Weapons": [
+   {
+    "Name": "Battleaxe",
+    "Count": 1
+   },
+   {
+    "Name": "Javellin",
+    "Count": 3
+   },
+   {
+    "Name": "Crossbow",
+    "Count": 1
+   }
+  ],
+  "Tools": [
+   {
+    "Name": "Thieves' Tools",
+    "Count": 1
+   },
+   {
+    "Name": "Disguise Kit",
+    "Count": 1
+   },
+   {
+    "Name": "Dice set",
+    "Count": 1
+   }
+  ],
+  "Other": [
+   {
+    "Name": "Oil",
+    "Count": 2
+   },
+   {
+    "Name": "Hunting trap",
+    "Count": 1
+   }
+  ]
+ },
+ "Proficiencies": {
+  "Languages": [
+   "Dwarwish",
+   " Elvish"
+  ],
+  "Weapons": [
+   "Martial",
+   " Simple",
+   " Handaxe"
+  ],
+  "Armors": [
+   "light",
+   " medium"
+  ],
+  "Tools": [
+   "Thieves' tools",
+   " Gaming set."
+  ],
+  "Bonuses": [
+   "Animal Handling x2",
+   " Deception 1"
+  ]
+ },
+ "Spells": {}
+}
