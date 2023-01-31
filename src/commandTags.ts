@@ -7,7 +7,6 @@ export class FCommandNames{
     static Ping:string = "ping";
     static BetterRoll:string = "testingaction";
     static Roll:string = "roll";
-    // subcommands //@todo move these to own?
 }
 
 export class FSubCommandNames{
