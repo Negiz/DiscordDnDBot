@@ -1,11 +1,15 @@
 import { KeyAndTypes } from "./keyAndTypes";
 import { FKeySetBase } from "./KeySetBase";
-// base class for all KeyContainers
+/*  required for GetObjectFromDocument?
+
+*/
 export class CKeyContainer{
     // Object's key, KeyAndTypes
     SimpleKeyMap:Map<string,KeyAndTypes>;
+    // all required keys collected into an array.
     ValidationArray:KeyAndTypes[];
-    // put the key object here.
+    // datastructure that holds all mapped keys from pdf to obj
+    // all key types should be type of KeyAndTypes, used to create SimpleKeyMap in InitiateMaps()
     KeysObject:any;
     GetKeysObj<Type>():Type{
         return this.KeysObject as Type;
@@ -17,8 +21,8 @@ export class CKeyContainer{
         let kk:KeyAndTypes = this.SimpleKeyMap.get(key);
         return kk.Pdfkey;
     }
-    constructor(Class:any){
-        this.KeysObject = new Class();
+    constructor(keysObjectClass:any){
+        this.KeysObject = new keysObjectClass();
         this.InitiateMaps();
 
     }
@@ -36,7 +40,6 @@ export class CKeyContainer{
                 }
             }
         });
-        //console.log('simplekeymap:',this.SimpleKeyMap);
     }
 }
 

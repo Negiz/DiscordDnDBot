@@ -31,7 +31,7 @@ export class Player extends FBaseComponent{
   Equipment:FEquipment; 
   Proficiencies:FProficiencies; 
   Spells:FSpells;
-  //@todo review is component map required
+  
  
   constructor(){
     super();

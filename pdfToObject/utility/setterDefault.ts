@@ -25,13 +25,18 @@ export function SetValuesFromPdfToObject(docObj: any, Obj: any, KeyCont:CKeyCont
             SetValuesFromPdfToObject(docObj,Obj[kk],KeyCont,BaseComponentClass);
             return;
         }
+        // object is not array and contains legit keys, that is not also BaseComponentClass
+        // good for generic objects.
+        if(typeof(Obj[kk]) == 'object' && !Array.isArray(Obj[kk]) && !(Obj[kk] instanceof ValueSetterClass)){
+            SetValuesFromPdfToObject(docObj,Obj[kk],KeyCont,BaseComponentClass);
+            return;
+        }
         //@todo maybe check if object, but not array
         // SetValues...
 
         let field = KeyCont.GetMappedKeyField(key);
-        //@Review should we cause error?
-        // some keys in the object might be filled later and does not require keymap
-        // UserId in class Player -> filled by discord. 
+
+        // skip if not found, might be populated later
         if(field === undefined) return;
         let val:any;
         let bFieldExists = false;

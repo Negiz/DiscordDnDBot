@@ -52,11 +52,12 @@ export function GetObjectFromDocument<ObjType,KeyContainerType,BasecompType>(Pdf
         const loadingTask = pdfjsLib.getDocument(PdfObj.FileName);
         loadingTask.promise
         .then(function (doc:any) {
-            const numPages:number = doc.numPages;
             console.log("# Document Loaded");
-            console.log("Number of Pages: " + numPages);
-            let errMsgs:string[] = new Array();
+            const numPages:number = doc.numPages;
             const maxpg = PdfObj.MaxPagesCount;
+            console.log("Number of Pages: " + numPages);
+            
+            let errMsgs:string[] = new Array();
             if(maxpg > 0 && !(numPages <= PdfObj.MaxPagesCount)){
                 errMsgs.push('Document page count exceeds Maximum limit');
                 return reject(errMsgs);
